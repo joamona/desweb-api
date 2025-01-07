@@ -92,7 +92,7 @@ pgadmin4
 #pgadmin4 data folder for production environment
 pgadmin4_prod
 #geoserver data
-geoserver
+geoserver-data
 
 #migration files for the django project
 migrations/*
