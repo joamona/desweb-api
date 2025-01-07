@@ -6,7 +6,7 @@ Docker Django API template
 - Clone the repo:
 
     git clone https://github.com/joamona/desweb-api.git
-    
+
 - Change to the project folder:
 
     cd desweb-api
@@ -14,6 +14,7 @@ Docker Django API template
 - Create the pgadmin folders:
 
     Windows: pgadmin_create_folders_windows.bat
+    
     Linux: ./pgadmin_create_folders_linux.sh
 
 - Create the containers and start the services:
