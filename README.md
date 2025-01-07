@@ -1,5 +1,4 @@
 # DESWEB-API
-
 Docker Django API template
 
 # Help
