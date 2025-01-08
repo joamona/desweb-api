@@ -6,12 +6,12 @@ Docker Django API template
 - Clone the repo:
 
 ```ruby
-    git clone https://github.com/joamona/desweb-api.git
+    git clone https://github.com/joamona/django-api-template.git
 ```
 
 - Change to the project folder:
 ```ruby
-    cd desweb-api
+    cd django-api-template
 ```
 - Create the pgadmin folders:
 ```ruby
