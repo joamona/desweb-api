@@ -60,6 +60,7 @@ services:
 
   deswebapi:
     restart: "no"
+    #the folder of the Django project
     build: ./deswebapi
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
