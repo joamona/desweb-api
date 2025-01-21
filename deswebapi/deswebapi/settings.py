@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders'
 ]
+if DEBUG:
+    CORS_ALLOW_ALL_ORIGINS=True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
