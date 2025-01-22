@@ -62,7 +62,7 @@ services:
     restart: unless-stopped
     #the folder of the Django project
     build: ./deswebapi
-    command: python manage.py runserver 0.0.0.0:8000
+    command: gunicorn deswebapi.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - ./deswebapi:/usr/src/app
     ports:
